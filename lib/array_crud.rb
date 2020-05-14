@@ -8,7 +8,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   create_an_array=["pink", "red", "blue", "green"]
-  create_an_array << "black"
+  create_an_array.push("black")
+  puts create_an_array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
